@@ -1,0 +1,12 @@
+hash: 8acf912e32d1c55e2e945f389d5dbedc7122f79bf27ffb6f6ffd159d310bba0f
+updated: 2016-05-31T10:45:17.14747044-05:00
+imports:
+- name: github.com/docopt/docopt.go
+  version: 784ddc588536785e7299f7272f39101f7faccc3f
+  repo: git@github.com:docopt/docopt.go
+  vcs: git
+- name: github.com/hashicorp/consul
+  version: b43f900766ad92eebbd5a8f931fe0fe244f9969d
+  subpackages:
+  - api
+devImports: []
