@@ -18,4 +18,4 @@ for target in $TARGETS; do
 done
 
 cd build && shasum -a 512 "$BIN_NAME"_* > SHA512SUMS.txt && cd .. || exit
-${GPG} --clearsign build/SHA512SUMS.txt
+gpg2 --clearsign build/SHA512SUMS.txt
