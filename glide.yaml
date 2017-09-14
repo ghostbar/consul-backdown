@@ -1,9 +1,0 @@
-package: github.com/ghostbar/consul-backdown
-import:
-- package: github.com/docopt/docopt.go
-  version: ^0.6.2
-  repo: git@github.com:docopt/docopt.go
-  vcs: git
-- package: github.com/hashicorp/consul
-  subpackages:
-  - api
